@@ -1,0 +1,45 @@
+body {
+    font-family: ;
+    color: ;
+    background-color: ;
+}
+
+ul, ol {
+    list-style-type:none;
+}
+
+a {
+    
+}
+
+/* Section-selectors */
+section #Studio:hover, 
+section #Portfolio:hover, 
+section #Contact:hover {
+    color: #404BBF;
+}
+
+section #Studio:active{
+    color: #404BBF;
+    }
+
+/* Address-selectors */
+.address-mailto:hover {
+    color:#404BBF;
+}
+
+.address-tel:hover {
+    color:#404BBF;
+}
+
+/* section-1-button */
+.order-button{
+   color:#4D5AE5;
+}
+
+order-button {
+    color:#4D5AE5;
+}
+.order-button:hover {
+    color:#404BBF;
+}
