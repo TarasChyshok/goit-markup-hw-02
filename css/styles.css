@@ -1,45 +1,209 @@
+p, h2, h3 {
+    font-family:"Roboto";
+}
+
 body {
-    font-family: ;
-    color: ;
-    background-color: ;
+    background-color:var(--color-white);
+    font-family: 'Roboto Medium';
+    color:var(--color-slate);
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+body p{
+    font-family:"Roboto";
+}
+
+li {
+    display: inline;
+}
+
+div {
+    border:1px;
+    border-color:var(--color-navy-blue-modal);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+
+h3 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 ul, ol {
     list-style-type:none;
 }
 
-a {
-    
+/* colors */
+:root {
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-navy-blue: #2E2F42;
+    --color-green: #31D0AA;
+    --color-slate: #434445;
+    --color-light-slate: #8E8F99;
+    --color-cornflower: #E7E9FC;
+    --color-cloud: #F4F4FD;
+    --color-navy-blue-modal: #2E2F42;
+    --color-grey: #E7E9FC;
+    --color-white: #FFFFFF;
+    --color-dairy: #FCFCFC;
 }
 
-/* Section-selectors */
-section #Studio:hover, 
-section #Portfolio:hover, 
-section #Contact:hover {
+/* header */
+header {
+    background-color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+
+     
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    }
+
+.section-presentation #Studio:hover, 
+.section-presentation #Portfolio:hover, 
+.section-presentation #Contact:hover {
     color: #404BBF;
 }
 
-section #Studio:active{
+.section-presentation #Studio:active{
     color: #404BBF;
     }
 
-/* Address-selectors */
-.address-mailto:hover {
+/* Address selectors */
+ address {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.address > a:hover, .address > a:focus {
     color:#404BBF;
 }
 
-.address-tel:hover {
-    color:#404BBF;
+/* logo */
+.logo {
+    font-family:"Raleway";
+    font-weight: 700;
 }
 
-/* section-1-button */
+.logo-span{
+    font-family:"Raleway";
+    font-weight: 700;
+    color:var(--color-iris);
+}
+
+/* section presentation */
+.section-presentation {
+    background-color: var(--color-navy-blue);
+    width: 100%;
+    height: 600px;
+    text-align:center;
+} 
+
+.h1-presentation {
+    font-family:'Roboto';
+    font-weight:bold;
+    font-size:56px;
+    line-height:1.07143;
+    color:var(--color-white);
+    letter-spacing:0.02em;
+    text-align:center;
+    
+}
+div .h1-presentation {
+    height:120; 
+    width:496;
+}
+
+
 .order-button{
-   color:#4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+ 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    cursor:pointer;
 }
 
-order-button {
-    color:#4D5AE5;
-}
 .order-button:hover {
     color:#404BBF;
+
 }
+
+/* section our team */
+.section-our-team {
+    background-color:var(--color-cloud)
+}
+
+.section-our-team div {
+    background-color: var(--color-white);
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 380px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-our-team img {
+    height: 260px;
+    width: 264px;
+}
+
+/* section portfolio */
+#Portfolio div {
+    border-color: var(--color-cornflower);
+    background-color: var(--color-white);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 360px;
+    height: 420px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+#Portfolio div p{
+    font-size: 16px;
+    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);  
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--color-navy-blue);
+    color:var(--color-cloud);
+}
+
