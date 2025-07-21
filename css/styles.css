@@ -17,23 +17,9 @@ body p{
     font-family:"Roboto";
 }
 
-li {
-    display: inline;
-}
-
 div {
     border:1px;
     border-color:#2E2F42;
-}
-
-h3 {
-    font-family: 'Roboto Medium', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 ul, ol {
@@ -80,18 +66,6 @@ address a {
     color:#404BBF;
 }
 
-/* logo */
-.logo {
-    font-family:"Raleway";
-    font-weight: 700;
-    color:#2e2f42;
-}
-
-.logo-span{
-    font-family:"Raleway";
-    font-weight: 700;
-    color: #4d5ae5;
-}
 nav a:focus, nav a:hover {
     color: #404bbf
 }
@@ -99,8 +73,6 @@ nav a:focus, nav a:hover {
 /* section presentation */
 .section-presentation {
     background-color: #2E2F42;
-    width: 100%;
-    height: 600px;
 } 
 
 .h1-presentation {
@@ -113,28 +85,22 @@ nav a:focus, nav a:hover {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-div .h1-presentation {
-    height:120; 
-    width:496;
-}
-
 
 .order-button{
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
- 
+ font-family:"Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
     cursor:pointer;
 }
 
-.order-button:hover, .order-button:focus {
+.order-button:hover {
+    color:#404BBF;
+}
+.order-button:focus {
     color:#404BBF;
 }
 
@@ -147,6 +113,12 @@ div .h1-presentation {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.benefits-h3 {
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
 .studio-p {
     font-size:16px;
     line-height:1.5;
@@ -155,12 +127,13 @@ div .h1-presentation {
 }
 
 /* section our team */
-.section-our-team {
+.section-portfolio {
     background-color:#F4F4FD;
 }
-.h2 {
+.h2-our-team-and-portfolio {
     font-size:36px;
     line-height:1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
@@ -188,35 +161,20 @@ div .h1-presentation {
 .section-our-team div {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    height: 380px;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.section-our-team img {
-    height: 260px;
-    width: 264px;
 }
 
 /* section portfolio */
-#Portfolio div {
-    border-color: #E7E9FC;
-    background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 360px;
-    height: 420px;
+h3 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-#Portfolio div p{
+#Portfolio p{
     font-size: 16px;
     
     line-height: 1.5;
@@ -226,7 +184,7 @@ div .h1-presentation {
 
 
 /* Footer */
-footer {
+.footer {
     background-color: #2E2F42;
     color:#4d5ae5 ;
     font-family: "Raleway", sans-serif;
@@ -237,7 +195,24 @@ footer {
     text-transform: uppercase;
 
 }
-footer span {
+.footer span {
     color: #f4f4fd;
 }
 
+/* logo */
+.logo {
+    font-family:"Raleway";
+    font-weight: 700;
+    color: #4d5ae5;
+}
+
+.logo-span{
+    font-family:"Raleway";
+    font-weight: 700;
+    color:#f4f4fd;
+}
+.footer-p {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
