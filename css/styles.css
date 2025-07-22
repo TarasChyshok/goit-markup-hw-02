@@ -91,7 +91,7 @@ nav a:hover {
   letter-spacing: 0.02em;
 }
 
-.order-button {
+.presentation-button {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -102,10 +102,10 @@ nav a:hover {
   cursor: pointer;
 }
 
-.order-button:hover {
+.presentation-button:hover {
   background-color: #404bbf;
 }
-.order-button:focus {
+.presentation-button:focus {
   background-color: #404bbf;
 }
 
