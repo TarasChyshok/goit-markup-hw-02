@@ -47,9 +47,11 @@ header {
   color: #2e2f42;
 }
 
-.section-presentation #Studio:hover,
-.section-presentation #Portfolio:hover,
-.section-presentation #Contact:hover {
+.link-nav:hover {
+  color: #404bbf;
+}
+
+.link-nav:focus {
   color: #404bbf;
 }
 
@@ -109,7 +111,7 @@ header {
 }
 
 /* section benefits */
-.h2-text {
+.h-text {
   font-weight: 500;
   font-size: 20px;
 
@@ -134,14 +136,6 @@ header {
 /* section our team */
 .section-portfolio {
   background-color: #f4f4fd;
-}
-.h-four {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .list-team {
