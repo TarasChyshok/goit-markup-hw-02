@@ -7,7 +7,7 @@ h3 {
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  color: #434445;
+  color: #434455;
 
   font-size: 16px;
   line-height: 1.5;
@@ -39,7 +39,11 @@ header {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-header span {
+
+.link-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -61,16 +65,12 @@ header span {
   color: #434445;
   font-style: normal;
 }
-address a {
-  color: #434455;
-}
-.address > a:hover,
-.address > a:focus {
+
+.address:hover {
   color: #404bbf;
 }
 
-nav a:focus,
-nav a:hover {
+.address:focus {
   color: #404bbf;
 }
 
@@ -79,7 +79,7 @@ nav a:hover {
   background-color: #2e2f42;
 }
 
-.h1-presentation {
+.h-presentation {
   font-family: "Roboto";
   font-weight: 700;
   color: #ffffff;
@@ -117,11 +117,12 @@ nav a:hover {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.benefits-h3 {
-  font-size: 16px;
-  line-height: 1.5;
+.benefits-h {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 .studio-p {
   font-size: 16px;
@@ -134,7 +135,7 @@ nav a:hover {
 .section-portfolio {
   background-color: #f4f4fd;
 }
-.h2-3-4 {
+.h-four {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -201,6 +202,9 @@ nav a:hover {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #4d5ae5;
+}
+.logo-headspan {
+  color: #2e2f42;
 }
 
 .logo-span {
